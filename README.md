@@ -25,9 +25,9 @@ You will need the following things properly installed on your computer.
 2. Specs:
 | Behavior | Input | Output |
 |----------|-------|--------|
-| User submit a question form and add a question | User inputs the content ,author name and notes to the form and clicks on submit button |    new question populates on the index page |
-| User can click on delete button to delete each question |  click on delete button     |   question gets removed from the index page   |
-| Users can click on edit/update button to edit each question |  click on edit button  |   question gets updated shows up on index page  |
+| User submit a question form and add a question | User inputs the content ,author name and notes to the form and clicks on submit button |new question populates on the index page|
+| User can click on delete button to delete each question |click on delete button | question gets removed from the index page|
+| Users can click on edit/update button to edit each question |click on edit button |question gets updated shows up on index page |
 
 3. Integration
   * Initial routes or index pages with all dependencies in Controller/index.html head
