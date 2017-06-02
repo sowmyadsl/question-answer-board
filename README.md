@@ -2,9 +2,9 @@
 
 This Webpage was created to have a message board that allows junior developers and newbies learning to code to ask questions that senior developers,product owners can answer and help them out.
 
-## Plan
+## Planning
 
-The Application contains:
+The Application should contain:
 
 * Show questions on the home page.
 * Show question and the name of the author on the homepage.
@@ -13,14 +13,38 @@ The Application contains:
 * Users should be able to add answers to a question.
 * Answers should be added and viewed on the same page as the question they respond to.
 
-## Prerequisites
-
+1. Configuration/dependencies:
+* It includes all dependencies.
 You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
 * [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+* [PhantomJS](http://phantomjs.org/).
+
+2. Specs:
+| Behavior | Input | Output |
+|----------|-------|--------|
+| User submit a question form and add a question | User inputs the content ,author name and notes to the form and clicks on submit button |    new question populates on the index page |
+| User can click on delete button to delete each question |  click on delete button     |   question gets removed from the index page   |
+| Users can click on edit/update button to edit each question |  click on edit button  |   question gets updated shows up on index page  |
+
+3. Integration
+  * Initial routes or index pages with all dependencies in Controller/index.html head
+  * Template/html page for Index page
+  * Template/html page for About page
+  * Template/html page for Index page
+  * Template/html page for ... (one for each route/integrated user story)
+  * Display...
+  * Integrate feature that...
+
+4. UX/UI
+  * Include and modify bootstrap/materialize/Sass etc.
+  * Develop custom style
+
+5. Polish
+  * Refactor minor portion of...
+  * Delete unused...
 
 ## Installation
 
