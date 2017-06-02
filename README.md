@@ -1,6 +1,6 @@
 # Query (Message Board) using Ember js
 
-This Webpage was created to have a message board that allows junior developers and newbies learning to code to ask questions that senior developers,product owners can answer and help them out.
+This Webpage was created to have a message board that allows junior developers and newbies learning to code to ask questions that senior developers, product owners can answer and help them out.
 
 ## Planning
 
@@ -23,6 +23,7 @@ You will need the following things properly installed on your computer.
 * [PhantomJS](http://phantomjs.org/).
 
 2. Specs:
+
 | Behavior | Input | Output |
 |----------|-------|--------|
 | User submit a question form and add a question | User inputs the content ,author name and notes to the form and clicks on submit button |new question populates on the index page|
