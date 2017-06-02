@@ -1,7 +1,17 @@
 # question-answer-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This Webpage was created to have a question and answer message board where users should be able to submit a question, then the other users can respond with answers.
+
+## User Stories
+
+The Application should contain:
+
+* Show questions on the home page.
+* Show question and the name of the author on the homepage.
+* Users should be able to click on question, and routed to a page containing additional information and question details.
+* Users should be able to add and edit questions.
+* Users should be able to add answers to a question.
+* Answers should be added and viewed on the same page as the question they respond to.
 
 ## Prerequisites
 
