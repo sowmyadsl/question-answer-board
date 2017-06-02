@@ -24,10 +24,6 @@ export default Ember.Route.extend({
       this.transitionTo('question', question);
     },
     destroyQuestion(question){
-      question.destroyRecord();
-      this.transitionTo('index');
-    },
-    destroyAnswer(answer){
       var answer_deletions = question.get('answers').map(function(answer){
         return answer.destroyRecord();
       });
@@ -35,6 +31,10 @@ export default Ember.Route.extend({
         return question.destroyRecord();
       });
       this.transitionTo('index');
+    },
+    destroyAnswer(answer){
+      answer.destroyRecord();
+      this.transitionTo('question');
     }
   }
 });
