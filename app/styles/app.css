@@ -1,0 +1,23 @@
+#github {
+  display: inline-block;
+  width: 43px;
+  position:relative;
+}
+
+#instagram{
+  display: inline-block;
+  width: 50px;
+  position:relative;
+}
+
+#facebook{
+  display: inline-block;
+  width: 45px;
+  position:relative;
+}
+
+#pinterest{
+  display: inline-block;
+  width: 40px;
+  position:relative;
+}
