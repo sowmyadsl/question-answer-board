@@ -1,10 +1,10 @@
-# question-answer-board
+# Query (Message Board) using Ember js
 
-This Webpage was created to have a question and answer message board where users should be able to submit a question, then the other users can respond with answers.
+This Webpage was created to have a message board that allows junior developers and newbies learning to code to ask questions that senior developers,product owners can answer and help them out.
 
-## User Stories
+## Plan
 
-The Application should contain:
+The Application contains:
 
 * Show questions on the home page.
 * Show question and the name of the author on the homepage.
