@@ -2,6 +2,10 @@
 
 This Webpage was created to have a message board that allows junior developers and newbies learning to code to ask questions that senior developers, product owners can answer and help them out.
 
+## landing page
+
+![](https://github.com/sowmyadsl/question-answer-board/blob/master/public/img/Screen%20Shot%202017-06-02%20at%207.31.25%20PM.png)
+
 ## Planning
 
 The Application should contain:
@@ -32,12 +36,10 @@ You will need the following things properly installed on your computer.
 
 3. Integration
   * Initial routes or index pages with all dependencies in Controller/index.html head
-  * Template/html page for Index page
-  * Template/html page for About page
-  * Template/html page for Index page
-  * Template/html page for ... (one for each route/integrated user story)
-  * Display...
-  * Integrate feature that...
+  * Template/html page for Index page with a navbar on top and social media icons on footer
+  * Template/html page for About me page with information and a image.
+  * Template/html page for contact page with a map of location.
+
 
 4. UX/UI
   * Include and modify bootstrap/materialize/Sass etc.
@@ -46,6 +48,8 @@ You will need the following things properly installed on your computer.
 5. Polish
   * Refactor minor portion of...
   * Delete unused...
+
+
 
 ## Installation
 
