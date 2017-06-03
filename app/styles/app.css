@@ -2,30 +2,42 @@
 * {
   font-family: 'Josefin Sans', sans-serif;
 }
-
+footer{
+  padding: 0;
+  margin: 0;
+}
 /*styling for social media icons*/
 #github {
   display: inline-block;
   width: 43px;
   position:relative;
+  top:50%;
+  left:45%;
+
 }
 
 #instagram{
   display: inline-block;
   width: 50px;
   position:relative;
+  top:50%;
+  left:45%;
 }
 
 #facebook{
   display: inline-block;
   width: 45px;
   position:relative;
+  top:50%;
+  left:45%;
 }
 
 #pinterest{
   display: inline-block;
   width: 40px;
   position:relative;
+  top:50%;
+  left:45%;
 }
 
 /*styling for jumbotron*/
@@ -63,4 +75,27 @@ h2 {
 
 p{
   font-size: 20px;
+}
+
+ul{
+  font-size: 20px;
+}
+
+li{
+  list-style: none;
+  font-size: 20px;
+}
+
+/*blockquote styling*/
+.blockquote-footer{
+  font-size: 18px;
+}
+
+.blockquote{
+border-left: 10px solid #FF6B6B;
+background: #f9f9f9;
+}
+
+.row-question{
+  margin-top: 20px;
 }
