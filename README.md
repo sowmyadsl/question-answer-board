@@ -33,6 +33,8 @@ You will need the following things properly installed on your computer.
 | User submit a question form and add a question | User inputs the content ,author name and notes to the form and clicks on submit button |new question populates on the index page|
 | User can click on delete button to delete each question |click on delete button | question gets removed from the index page|
 | Users can click on edit/update button to edit each question |click on edit button |question gets updated shows up on index page |
+| Users can navigate each individual question by clicking on the question to add an answer to the question | Add an answer to the question | Answer gets displayed underneath the question |
+| Users can delete answers by clicking on the delete answer button | Click on the delete answer button | answer gets removed from the page and gets redirected to the same page back|
 
 3. Integration
   * Initial routes or index pages with all dependencies in Controller/index.html head
