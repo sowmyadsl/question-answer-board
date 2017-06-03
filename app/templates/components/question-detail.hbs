@@ -1,11 +1,12 @@
 <br>
 <div class="well">
   <h2>{{question.content}}</h2>
-   <h4>asked by-{{question.author}}</h4>
+   <h4 class="q-author">Posted by-{{question.author}},on {{question.date}}</h4>
+   <h3 class="q-author"></h3>
   <h4>{{question.notes}}</h4>
    {{update-question question=question update="update"}}
    <br>
-   <button class="btn btn-danger" {{action 'delete' question}}>Delete</button>
+   <button id="delete-question-button" class="btn btn-danger" {{action 'delete' question}}>Delete</button>
 </div>
 
 <div class="row">

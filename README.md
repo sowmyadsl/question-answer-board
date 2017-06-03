@@ -35,12 +35,14 @@ You will need the following things properly installed on your computer.
 | Users can click on edit/update button to edit each question |click on edit button |question gets updated shows up on index page |
 | Users can navigate each individual question by clicking on the question to add an answer to the question | Add an answer to the question | Answer gets displayed underneath the question |
 | Users can delete answers by clicking on the delete answer button | Click on the delete answer button | answer gets removed from the page and gets redirected to the same page back|
+| Users can add multiple answers to each question | Multiple answers for question | Multiple answers gets posted underneath each question |
 
 3. Integration
   * Initial routes or index pages with all dependencies in Controller/index.html head
   * Template/html page for Index page with a navbar on top and social media icons on footer
   * Template/html page for About me page with information and a image.
   * Template/html page for contact page with a map of location.
+  * 
 
 
 4. UX/UI
