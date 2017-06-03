@@ -1,8 +1,12 @@
-<h2>{{question.content}}</h2>
-
- <br> asked by {{question.author}}<br>
- {{question.notes}}
 <br>
+<div class="well">
+  <h2>{{question.content}}</h2>
+   <h4>asked by-{{question.author}}</h4>
+  <h4>{{question.notes}}</h4>
+   {{update-question question=question update="update"}}
+   <br>
+   <button class="btn btn-danger" {{action 'delete' question}}>Delete</button>
+</div>
 
 <div class="row">
   <div class="col-md-9">
@@ -14,5 +18,3 @@
     </ul>
   </div>
 </div>
-
-<button class="btn btn-danger" {{action 'delete' question}}>Delete</button>
