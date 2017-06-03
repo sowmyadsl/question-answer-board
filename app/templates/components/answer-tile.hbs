@@ -1,4 +1,13 @@
 <li>
-  {{answer.content}} by {{answer.author}}
+  <div class="row">
+    <div class="col-md-8">
+      <blockquote class="blockquote">
+        <p class="mb-0">{{answer.content}} </p>
+        <footer class="blockquote-answer">
+          {{answer.author}}
+        </footer>
+      </blockquote>
+    </div>  
+  </div>
 </li>
 <button {{action 'delete' answer}}>Delete Answer</button>

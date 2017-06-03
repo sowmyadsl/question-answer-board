@@ -1,12 +1,19 @@
-More information on {{question.content}} <br> asked by {{question.author}}<br>
+<h2>{{question.content}}</h2>
+
+ <br> asked by {{question.author}}<br>
  {{question.notes}}
 <br>
+  {{update-question question=model  update="update"}}
 
-<h2> Answers </h2>
-<ul>
-  {{#each question.answers as |answer|}}
-  {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
-  {{/each}}
-</ul>
+<div class="row">
+  <div class="col-md-9">
+    <h2> view answers </h2>
+    <ul>
+      {{#each question.answers as |answer|}}
+      {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+      {{/each}}
+    </ul>
+  </div>
+</div>
 
 <button class="btn btn-danger" {{action 'delete' question}}>Delete</button>

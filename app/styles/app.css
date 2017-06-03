@@ -87,8 +87,12 @@ li{
 }
 
 /*blockquote styling*/
-.blockquote-footer{
+.blockquote-question{
   font-size: 18px;
+}
+
+.delete-question-button{
+  float: top;
 }
 
 .blockquote{

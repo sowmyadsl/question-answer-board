@@ -1,9 +1,7 @@
-<h2> More information about {{question.author}}'s question:</h2>
 
+<div class="delete-question-button">
+  {{question-detail question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
+</div>
 
-
-{{question-detail question=model destroyQuestion="destroyQuestion" destroyAnswer="destroyAnswer"}}
-
-{{update-question question=model update="update"}}
 
 {{new-answer saveAnswer="saveAnswer" question=model}}
