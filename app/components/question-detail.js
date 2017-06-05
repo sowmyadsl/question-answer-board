@@ -12,6 +12,12 @@ export default Ember.Component.extend({
   },
   destroyAnswer(answer){
     this.sendAction('destroyAnswer', answer);
+  },
+  upvoteAnswer(answer){
+    this.sendAction('upvoteAnswer',answer);
+  },
+  downvoteAnswer(answer){
+    this.sendAction('downvoteAnswer',answer);
   }
 }
 });

@@ -6,6 +6,7 @@
     "content": "What are the most important technical skills to have in today's world?",
     "author": "Divya",
     "notes": "career advice"
+
   }, {
     "content": "What are resources in Portland to learn programming/technical skills within a student's budget?",
     "author": "Udai",
@@ -13,13 +14,19 @@
   }],
   "answers": [{
     "author": "Anonymous",
-    "content": "You don’t. But you might have a future as a comedian."
+    "content": "You don’t. But you might have a future as a comedian.",
+    "upvote": 0,
+    "downvote":0
   },{
     "author": "Franz knuper",
-    "content": "React.js"
+    "content": "React.js",
+    "upvote": 0,
+    "downvote":0
   },{
     "author": "Sheela",
-    "content":"Epicodus!!!"
+    "content":"Epicodus!!!",
+    "upvote": 0,
+    "downvote":0
   }]
 
   }

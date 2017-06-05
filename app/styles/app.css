@@ -138,3 +138,7 @@ input[type="text"] {
 .q-notes{
   font-style: italic;
 }
+
+#upvote ,#downvote{
+  width: 22px;
+}

@@ -15,7 +15,7 @@
     <hr>
     <ul>
       {{#each question.answers as |answer|}}
-      {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+      {{answer-tile answer=answer destroyAnswer="destroyAnswer" upvoteAnswer="upvoteAnswer" downvoteAnswer="downvoteAnswer"}}
       {{/each}}
     </ul>
   </div>

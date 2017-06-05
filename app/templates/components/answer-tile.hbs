@@ -7,6 +7,10 @@
         <footer class="blockquote-answer">
           {{answer.author}}
         </footer>
+        {{answer.upvote}}
+        <img id="upvote" {{action 'upvote' answer}} src="/img/upvote-icon.png">
+        <img id="downvote"{{action 'downvote' answer}} src="/img/downvote-icon.png">
+        {{answer.downvote}}
       </blockquote>
     </div>
   </div>
