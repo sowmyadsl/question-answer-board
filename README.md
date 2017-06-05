@@ -5,6 +5,7 @@ This Webpage was created to have a message board that allows junior developers a
 ## landing page
 
 ![](https://github.com/sowmyadsl/question-answer-board/blob/master/public/img/Screen%20Shot%202017-06-02%20at%207.31.25%20PM.png)
+![](https://github.com/sowmyadsl/question-answer-board/blob/master/public/img/Screen%20Shot%202017-06-04%20at%209.40.41%20PM.png)
 
 ## Planning
 
@@ -36,24 +37,36 @@ You will need the following things properly installed on your computer.
 | Users can navigate each individual question by clicking on the question to add an answer to the question | Add an answer to the question | Answer gets displayed underneath the question |
 | Users can delete answers by clicking on the delete answer button | Click on the delete answer button | answer gets removed from the page and gets redirected to the same page back|
 | Users can add multiple answers to each question | Multiple answers for question | Multiple answers gets posted underneath each question |
+| Users can click on thumbs up (upvote) button to upvote a answer | Click on upvote to upvote a answer | it increments by 1 everytime you click on upvote|
+| Users can click on thumbs down (downvote) button to downvote a answer | Click on downvote to downvote a answer | it increments by 1 everytime you click on downvote |
 
 3. Integration
   * Initial routes or index pages with all dependencies in Controller/index.html head
-  * Template/html page for Index page with a navbar on top and social media icons on footer
+  * Template/html page for Index page with a navbar on top and social media icons and copyright info on footer
   * Template/html page for About me page with information and a image.
-  * Template/html page for contact page with a map of location.
-  * 
+  * Template/html page for contact page with a location map.
+  * Template/index page with question information and allowing a user to add a new question.
+  * Template/question page with question information and allowing a user to add answers.
+
+4. Models:
+
+* questions
+  - content
+  - author
+  - notes
+  - date(automatically adds up with moment.js)
+
+* answers
+  - author
+  - content
 
 
-4. UX/UI
-  * Include and modify bootstrap/materialize/Sass etc.
-  * Develop custom style
+5. UX/UI
+  * Included bootstrap,css.
 
-5. Polish
-  * Refactor minor portion of...
-  * Delete unused...
-
-
+6. Polish
+  * Refactor upvote and downvote buttons.
+  * Deleted unused files
 
 ## Installation
 

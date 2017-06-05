@@ -6,6 +6,12 @@ footer{
   padding: 0;
   margin: 0;
 }
+
+.copyright{
+  position:relative;
+  top:50%;
+  left:43%;
+}
 /*styling for social media icons*/
 #github {
   display: inline-block;
