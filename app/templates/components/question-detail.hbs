@@ -1,9 +1,9 @@
 <br>
 <div class="well">
   <h2>{{question.content}}</h2>
-   <h4 class="q-author">Posted by-{{question.author}},on {{question.date}}</h4>
-   <h3 class="q-author"></h3>
-  <h4>{{question.notes}}</h4>
+  <h4> Posted by- <span style="color:#FF6B6B">{{question.author}}</span></h4>
+ on <span style="color:black; font-">{{question.date}}</span>
+  <h4 class="q-notes">{{question.notes}}</h4>
    {{update-question question=question update="update"}}
    <br>
    <button id="delete-question-button" class="btn btn-danger" {{action 'delete' question}}>Delete</button>
@@ -11,7 +11,8 @@
 
 <div class="row">
   <div class="col-md-9">
-    <h2> view answers </h2>
+    <h2> Answers </h2>
+    <hr>
     <ul>
       {{#each question.answers as |answer|}}
       {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
