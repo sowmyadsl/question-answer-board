@@ -2,15 +2,18 @@
 <li>
   <div class="row">
     <div class="col-md-8">
-      <blockquote class="blockquote">
+      <blockquote id="answer-tile"class="blockquote">
         <p class="mb-0">{{answer.content}} </p>
         <footer class="blockquote-answer">
           {{answer.author}}
         </footer>
-        {{answer.upvote}}
-        <img id="upvote" {{action 'upvote' answer}} src="/img/upvote-icon.png">
-        <img id="downvote"{{action 'downvote' answer}} src="/img/downvote-icon.png">
-        {{answer.downvote}}
+        <br>
+        <div class="votes">
+          {{answer.upvote}}
+          <img id="upvote" {{action 'upvote' answer}} src="/img/upvote-icon.png">
+          <img id="downvote"{{action 'downvote' answer}} src="/img/downvote-icon.png">
+          {{answer.downvote}}
+        </div>
       </blockquote>
     </div>
   </div>
